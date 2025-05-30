@@ -19,7 +19,7 @@ jobs:
     - name: Run tests
       run: npm test
     - name: Build Docker image
-      run: docker build -t yourdockerhubusername/node-app:latest .
+      run: docker build -t georgefer/node-app:latest .
     - name: Log in to Docker Hub
       uses: docker/login-action@v2
       with:
